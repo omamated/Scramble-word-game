@@ -4,8 +4,6 @@ sys.setrecursionlimit(sys.getrecursionlimit() * 5)
 import random
 import nltk
 import customtkinter
-from PyDictionary import PyDictionary
-dictionary=PyDictionary()
 from nltk.corpus import words, wordnet
 from wordfreq import zipf_frequency
 

@@ -1,12 +1,9 @@
-import sys ; sys.setrecursionlimit(sys.getrecursionlimit() * 5)
 # -*- mode: python ; coding: utf-8 -*-
 from PyInstaller.utils.hooks import collect_all
 
 datas = []
 binaries = []
 hiddenimports = ['nltk.corpus.words', 'nltk.corpus.wordnet']
-tmp_ret = collect_all('nltk')
-datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
 tmp_ret = collect_all('customtkinter')
 datas += tmp_ret[0]; binaries += tmp_ret[1]; hiddenimports += tmp_ret[2]
 tmp_ret = collect_all('wordfreq')

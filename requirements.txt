@@ -1,0 +1,5 @@
+nltk
+customtkinter
+PyDictionary
+wordfreq
+pyinstaller
