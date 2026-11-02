@@ -7,7 +7,12 @@ I added different modes, whose difficulty are based on how common and long the w
 Your score is kept at the bottom for that session, the definition hint provides you with the definition of the word to assist you with figuring out the word.
 # How to Run
 
-To run this please download and run the exe in releases,
+To run this please download and run the exe in releases, I can't make a working exe right now if I do it will be in releases
+
+Clone the repository | Have python installed
+pip install -r requirements.txt
+python main.py
+Enjoy the game!
 
 
 ## Features
