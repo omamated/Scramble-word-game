@@ -1,6 +1,10 @@
 import sys
 sys.setrecursionlimit(sys.getrecursionlimit() * 5)
-
+import sys, os
+if sys.stdout is None:
+    sys.stdout = open(os.devnull, "w")
+if sys.stderr is None:
+    sys.stderr = open(os.devnull, "w")
 import random
 import nltk
 import customtkinter
