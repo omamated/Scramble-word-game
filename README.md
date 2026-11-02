@@ -9,4 +9,12 @@ Your score is kept at the bottom for that session, the definition hint provides 
 
 To run this please download and run the exe in releases,
 
+
+## Features
+- Multiple difficulty levels
+- Timed game mode
+- Score and streak tracking
+- Definition hints
+- Randomized words
+
 # Images
